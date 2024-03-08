@@ -1,0 +1,90 @@
+Questão 1:
+Crie uma programa para receber uma variável volume do tipo inte imprime a descrição dovolume recebido conforme as regras a seguir:
+1.“Min Volume”, caso volume seja menor ou igual a 0;
+2.“Low Volume”, caso volume seja maior que 0 e menor ou igual a 25;
+3.“Medium Volume”, caso volume seja maior que 25 e menor que ou igual a 75;
+4.“High Volume”, caso volume seja maior que 75 e menor que 100;
+5.“Max Volume”, caso volume seja maior ou igual à 100.
+Input: A entrada contém um inteiro volume.
+Output: A descrição do volume
+
+Questão 2:
+Faça um programa que receba 3 (três) números inteiros e os apresente na ordemd ecrescente
+Input: num1, num2 e num3
+Output:Ordem decrescente dos números seguindo o padrão
+
+Questão 3:
+Faça um programa para resolver equações do 2 grau: 
+ax² + bx + c = 0
+A fórmula de Bhaskara é x = −b±√Δ2a, em que Δ = b2−4ac.
+As raízes x1 e x2 são:
+x1 = −b−√Δ2a 
+x2 =−b+√Δ2a
+Condições para o programa funcionar:
+•O coeficiente “a” deve ser sempre diferente de zero;
+•Se Δ>0, então existem duas raízes reais x1 e x2 em que x1≠x2;
+•Se Δ=0, então x1=x2e existe apenas uma raiz real;
+•Se Δ<0, então não existe raiz real.
+Input: Os coeficientes a, b, e c.
+Output: Imprime “As raizes sao x1 e x2.” quando há duas raízes, “A unica raiz eh x.”, “Nao ha raizes.” quando não há raízes, ou “Coeficiente nao pode ser zero!” quando a=0.
+
+Questão 4:
+Escreva um programa em Java que leia 3 números inteiros. O primeiro número representa um dia, o segundo número representa um mês e o terceiro número representa um ano. 
+Dados os três números, imprima o signo representado por aquela data. 
+Se a data não existir, imprima “Data Invalida” 
+OBS.: Considere que alguns meses tem 30 ou 31 dias, que fevereiro pode ter 28 ou 29 dias em anos bissextos.
+OBS2.: Para determinar se um ano é bissexto, execute estas etapas:
+1.Se o ano for uniformemente divisível por 4, vá para a etapa 2. Caso contrário, vá para a etapa 5.
+2.Se o ano for uniformemente divisível por 100, vá para a etapa 3. Caso contrário, vápara a etapa 4.
+3.Se o ano for uniformemente divisível por 400, vá para a etapa 4. Caso contrário, vápara a etapa 5.
+4.O ano é bissexto.
+5.O ano não é um ano bissexto
+OBS3.: Não utilize acentos nas palavras impressas
+OBS4.: Utilize System.out.print() para imprimir o resultado
+Input:A entrada contém 3 números dia, mês e ano.
+Output:Imprime o respectivo signo ou Data Invalida
+
+Questão 5:
+Periodicamente, as crianças brasileiras devem tomar vacinas que as protegem de diversas doenças. 
+Escreva um programa para ler o ano em que a criança toma a 1ª dose e aperiodicidade (intervalo em anos) da vacina. Seu programa deve mostrar em quais outrosanos a criança deve tomar as próximas doses desta vacina, sabendo que há um total de quatro (4) doses de vacina.
+
+Questão 6:
+Luigi ganhou uma nova mochila com capacidade para até 18kg. Como há muitos livros, ele deseja saber quantos podem ser carregados na mochila sem ultrapassar esse limite.
+Escreva um programa que receba como entrada o peso de muitos livros de Luigi e exiba quantos livros podem ser carregados.
+Input: Muitos números inteiros representando o peso dos livros. Dica: a entrada deve parar quando um novo livro ultrapassar a capacidade da mochila.
+Output: A quantidade máxima de livros que a mochila carrega.
+
+Questão 6:
+Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos. 
+Seu programa deve funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+Input: O valor do lado N
+Output: O quadrado NxN
+Para lado igual a 2:
+**
+**
+Para lado igual a 5:
+*****
+*****
+*****
+*****
+*****
+
+Questão 7:
+Escreva um programa que imprima um triângulo isósceles com asteriscos, dado o valor de sua altura. 
+A altura do triângulo é representada por um número inteiro N. Seu program adeve funcionar para triângulos com lados de todos os tamanhos entre 2 e 20.
+Input: O valor da altura N
+Output:O triângulo isósceles de asterisco
+Exemplos:Para altura igual a 2:
+*
+**
+*
+Para altura igual a 5:
+*
+**
+***
+****
+*****
+****
+***
+**
+*
